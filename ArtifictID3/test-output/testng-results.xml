@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="23120" started-at="2019-01-31T18:15:50Z" finished-at="2019-01-31T18:16:14Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="23120" started-at="2019-01-31T18:15:50Z" finished-at="2019-01-31T18:16:14Z">
+      <class name="TestPackage.TestClass1">
+        <test-method status="PASS" signature="setup()[pri:0, instance:TestPackage.TestClass1@4501b7af]" name="setup" is-config="true" duration-ms="6883" started-at="2019-01-31T18:15:50Z" finished-at="2019-01-31T18:15:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="assertgooglepagetitle()[pri:0, instance:TestPackage.TestClass1@4501b7af]" name="assertgooglepagetitle" duration-ms="3632" started-at="2019-01-31T18:15:57Z" finished-at="2019-01-31T18:16:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assertgooglepagetitle -->
+        <test-method status="PASS" signature="assertfirstresult()[pri:0, instance:TestPackage.TestClass1@4501b7af]" name="assertfirstresult" duration-ms="3622" started-at="2019-01-31T18:16:01Z" depends-on-methods="TestPackage.TestClass1.assertgooglepagetitle" finished-at="2019-01-31T18:16:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assertfirstresult -->
+        <test-method status="PASS" signature="Assertdocumentandimagedisplayed()[pri:0, instance:TestPackage.TestClass1@4501b7af]" name="Assertdocumentandimagedisplayed" duration-ms="3866" started-at="2019-01-31T18:16:05Z" depends-on-methods="TestPackage.TestClass1.assertfirstresult" finished-at="2019-01-31T18:16:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Assertdocumentandimagedisplayed -->
+        <test-method status="PASS" signature="AssertGoogleImage()[pri:0, instance:TestPackage.TestClass1@4501b7af]" name="AssertGoogleImage" duration-ms="2603" started-at="2019-01-31T18:16:09Z" depends-on-methods="TestPackage.TestClass1.Assertdocumentandimagedisplayed" finished-at="2019-01-31T18:16:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AssertGoogleImage -->
+        <test-method status="PASS" signature="quitebrowser()[pri:0, instance:TestPackage.TestClass1@4501b7af]" name="quitebrowser" is-config="true" duration-ms="2377" started-at="2019-01-31T18:16:11Z" finished-at="2019-01-31T18:16:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitebrowser -->
+      </class> <!-- TestPackage.TestClass1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
