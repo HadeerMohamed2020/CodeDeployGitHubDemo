@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Test-Suite1]">
+  <test thread-count="5" name="ToolsQA(failed)">
+    <classes>
+      <class name="opencart.testcases.LoginTest">
+        <methods>
+          <include name="quitedriver"/>
+          <include name="startdriver"/>
+          <include name="inValid_Login"/>
+          <include name="valid_Login"/>
+        </methods>
+      </class> <!-- opencart.testcases.LoginTest -->
+      <class name="opencart.testcases.SearchByName">
+        <methods>
+          <include name="quitedriver"/>
+          <include name="log_out"/>
+          <include name="search_By_Name"/>
+          <include name="startdriver"/>
+          <include name="valid_Login"/>
+        </methods>
+      </class> <!-- opencart.testcases.SearchByName -->
+      <class name="opencart.testcases.CheckoutProcess_ConfirmOrderTest">
+        <methods>
+          <include name="log_out"/>
+          <include name="valid_Login"/>
+          <include name="quitedriver"/>
+          <include name="startdriver"/>
+          <include name="Checkout_ConfirmOrder"/>
+        </methods>
+      </class> <!-- opencart.testcases.CheckoutProcess_ConfirmOrderTest -->
+    </classes>
+  </test> <!-- ToolsQA(failed) -->
+</suite> <!-- Failed suite [Test-Suite1] -->

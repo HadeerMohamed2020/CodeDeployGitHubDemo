@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [test suite 2]">
+  <test thread-count="5" name="test suite 2(failed)">
+    <classes>
+      <class name="opencart.testcases.CheckoutProcess_ConfirmOrderTest">
+        <methods>
+          <include name="log_out"/>
+          <include name="valid_Login"/>
+          <include name="quitedriver"/>
+          <include name="startdriver"/>
+          <include name="Checkout_ConfirmOrder" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- opencart.testcases.CheckoutProcess_ConfirmOrderTest -->
+    </classes>
+  </test> <!-- test suite 2(failed) -->
+</suite> <!-- Failed suite [test suite 2] -->

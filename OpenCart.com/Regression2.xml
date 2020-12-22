@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="test suite 1">
+  <test thread-count="5" name="test suite 1">
+    <classes>
+    
+      <class name="opencart.testcases.SearchByName"/>
+      <class name="opencart.testcases.SearchSubcategoryTest"/>
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

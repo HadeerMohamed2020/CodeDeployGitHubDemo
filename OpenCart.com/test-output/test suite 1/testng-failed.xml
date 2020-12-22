@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [test suite 1]">
+  <test thread-count="5" name="test suite 1(failed)">
+    <classes>
+      <class name="opencart.testcases.SearchByName">
+        <methods>
+          <include name="quitedriver"/>
+          <include name="log_out"/>
+          <include name="search_By_Name"/>
+          <include name="startdriver"/>
+          <include name="valid_Login"/>
+        </methods>
+      </class> <!-- opencart.testcases.SearchByName -->
+      <class name="opencart.testcases.SortByName">
+        <methods>
+          <include name="valid_Login"/>
+          <include name="quitedriver"/>
+          <include name="startdriver"/>
+          <include name="log_out"/>
+          <include name="sort_By_Name"/>
+        </methods>
+      </class> <!-- opencart.testcases.SortByName -->
+    </classes>
+  </test> <!-- test suite 1(failed) -->
+</suite> <!-- Failed suite [test suite 1] -->

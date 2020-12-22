@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite1]">
+  <test thread-count="5" name="Regression1(failed)">
+    <classes>
+      <class name="opencart.testcases.LoginTest">
+        <methods>
+          <include name="quitedriver"/>
+          <include name="startdriver"/>
+          <include name="inValid_Login"/>
+          <include name="valid_Login" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- opencart.testcases.LoginTest -->
+      <class name="opencart.testcases.RegisterTest">
+        <methods>
+          <include name="quitedriver"/>
+          <include name="register_With_Erros"/>
+          <include name="startdriver"/>
+        </methods>
+      </class> <!-- opencart.testcases.RegisterTest -->
+    </classes>
+  </test> <!-- Regression1(failed) -->
+</suite> <!-- Failed suite [Suite1] -->
